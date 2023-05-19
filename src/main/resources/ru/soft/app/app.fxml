@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.soft.app.HomeController">
+    <children>
+        <AnchorPane layoutX="5.0" layoutY="62.0" prefHeight="330.0" prefWidth="691.0" style="-fx-background-color: FAFAFA;">
+            <children>
+                <Label layoutX="216.0" layoutY="14.0" prefHeight="55.0" prefWidth="219.0" text="Привет Друг!" textAlignment="CENTER" textFill="#a19c9c">
+                    <font>
+                        <Font name="Calibri" size="37.0" />
+                    </font>
+                </Label>
+            <ImageView fx:id="imageButtonHome" fitHeight="189.0" fitWidth="302.0" layoutX="186.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../asset/avatar.jpg" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="266.0" prefHeight="55.0" prefWidth="170.0" text="MyProgram" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Calibri" size="35.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
